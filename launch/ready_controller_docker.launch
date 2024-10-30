@@ -35,6 +35,7 @@
 	  <node pkg="ready_controller" type="ready_controller" name="ready_controller_node">
 		<remap from="/vel_x" to="/egocar/vel_x" />
 		<remap from="/cmd_accel" to="/egocar/cmd_accel" />
+		<remap from="/car/state/vel_x" to="/egocar/vel_x"/>
 	  </node>
   </group>
 
